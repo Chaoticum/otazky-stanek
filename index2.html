@@ -13,107 +13,10 @@
 	  
 <script>
 $(document).ready(function() {
-	var otazky = ["Jak se máš?",
-			"Jaká je tvoje oblíbená barva?",
-"Kdy jsi naposled zmokl/a?",
-"Máš nějaký vzor, ke kterému vzhlížíš?",
-"Co se ti naposled zdálo?",
-"Umíš vařit?",
-"Píšeš si deník?",
-"Umíš dobře plavat?",
-"Je nějaká země, kterou bys nikdy nechtěl/a navštívit?",
-"Když ti někdo volá zvedáš telefon hned, nebo to chvíli necháš zvonit?",
-  			"Zpíváš si ve sprše?",
-  			"Co je nejlepší jídlo ke snídani?",
-  			"Jaké je tvoje oblíbené jídlo?",
-  			"Kde bys zahrabal/a poklad, kdybys nějaký měl/a?",
-  			"Počítáš někdy kroky při chůzi?",
-  			"Usmíváš se vždycky na fotkách?",
-  			"Ukradl/a jsi někdy dopravní značku?",
-  			"Jaké pomluvy o tobě kolují?",
-  			"Jaký osobní rys obdivuješ nejvíc?",
-  			"Kdyby sis mohl/a vybrat nějakou zvláštní schopnost, která by to byla?",
-"Jaká je tvoje oblíbená příchuť zmrzliny?",
-"Vydržel/a bys den bez mobilu?",
-"Jaká vlastnost ti na ostatních vadí nejvíc?",
-"Myslíš, že školní uniformy jsou dobrý nápad?",
-"Kdyby sis mohl/a přát cokoli, co by to bylo?",
-"Nosíš košile?",
-"Cítíš se šťastný/á?",
-"Dokážeš udržet tajemství?",
-"Kolik máš v pokoji oken?",
-"Máš rád/a kakao?",
-"Těšíš se na Vánoce?",
-"Máš nějaký oblíbený citát?",
-"Kolikrát jsi letěl/a letadlem?",
-"Chtěl/a bys tetování?",
-"Máš doma krb?",
-"Jsi spíš introvert, nebo extrovert?",
-"Jaký je tvůj nejoblíbenější alkoholický nápoj?", 
-"Co bylo poslední jídlo, které jsi jedl/a?",
-"Cestuješ rád/a?",
-"Jaké bylo dnes počasí?",
-"Věříš, že přijde konec světa?",
-"Je milosrdná lež správná věc?",
-"Chodíš vždy včas?",
-"Kolik chceš mít dětí?",
-"Jak dlouho dokážeš balancovat na jedné noze?",
-"Baví tě pořád odpovídat na otázky?",
-"Měli by lidé dřív kolonizovat Měsíc, nebo Mars?",
-"Kdybys mohl/a , odjel/a  bys studovat do zahraničí?",
-"Máš rád/a pálivá jídla?",
-"Myslíš, že kluk a holka můžou být nejlepší přátelé?",
-"Jaká je tvá nejoblíbenější postava ze seriálu Simpsonovi?",
-"Jakou máš barvu očí?",
-"Souhlasíš se svatbami gayů a lesbiček?",
-"Jaký je tvůj nejoblíbenější školní předmět?",
-"Myslíš si, že by měl kluk psát první?",
-"Chtěl/a bys znát datum svojí smrti?",
-"Na co jsi v životě nejvíc pyšný/á?",
-"Jakou písničku jsi naposled poslouchal/a?",
-"Kolik písniček máš v mobilu?",
-"Viděl/a jsi někdy umírat člověka?",
-"Jaká je tvá oblíbená příchuť marmelády?",
-"Víš, že celou naši konverzaci řídí generátor náhodných otázek?",
-"Kdyby váš dům hořel, co bys zachránil/a jako první?",
-"Vadilo by ti víc, kdyby neexistovaly filmy, nebo seriály?",
-"Jak nejlépe odmítnout kluka/holku?",
-"Jakou poslední písničku jsi naposled slyšel/a?",
-                        "Co jsi za znamení?",
-                        "Jaká je tvá nejhorší vlastnost?",
-                        "Kolika let se chceš dožít?",
-                        "Věříš v posmrtný život?",
-                        "Ve který den jsi se narodil/a?",
-                         "Jaký film jsi viděl/a naposled?",
-                        "Kolik mléka je v mléčné dráze?",
-                        "Je Miloš Zeman stále živý?",
-                        "Kde nejdál od domova jsi byl/a?",
-  			"Jaká je tvá barva očí?",
-  			"Jaká je tvoje oblíbená pizza?",
-  			"Barvíš si vlasy?",
-  			"Už sis někdy vzal/a prášky na spaní?",
-  			"Kde nakupuješ potraviny?",
-  			"Máš rád/a sushi?",
-  			"Chtěl/a bys být slavný/á?",
-  			"Jak by vypadal tvůj dokonalý den?",
-  			"Hraješ na nějaký hudební nástroj?",
-  			"Jaký je tvůj nejoblíbenější film?",
-  			"Co je tvůj největší životní úspěch?",
-  			"Jsi pravák/pravačka?",
-  			"Jak by ses popsal/a jedním slovem?",
-  			"Na jaké otázky rád/a odpovídáš?",
-  			"Co tě naposled překvapilo?",
-  			"Kam bys jel/a na dovolenou, kdybys mohl/a kamkoli?",
-  			"Jakou nejlepší radu jsi někomu dal/a?",
-  			"Co jsi udělal/a v životě nejodvážnějšího?",
-  			"Co právě děláš?",
-  			"Myslíš, že modré žáby opravdu existují?",
-  			"Kdybys mohl/a cestovat časem v jaké bys chtěl/a žít době?",
-  			"Co je nejlepší vynález všech dob?",
-  			"Jaký je ideální počet hodin pro spánek?",
-  			"Kolik je v USA ladičů pian?",
-  			"Na co se tě mám zeptat?",
-  			"Jaké je tvé oblíbené roční období?"
+	var otazky = [
+		"Jak se máš?",
+		"Jaká je tvoje oblíbená barva?",
+  		"Jaké je tvé oblíbené roční období?"
   			];
  var pocet = otazky.length;
   var nahodna = Math.floor((Math.random() * pocet) + 0);
@@ -130,28 +33,15 @@ $('p').replaceWith('<p>Celkový počet otázek: '+pocet+'</p>');
 </head>
 	
 <body>
+	
 <section>
 <h1>Generátor otázek</h1>
-<button>Generovat novou otázku</button>
+<button>Vygenerovat otázku</button>
 <div><blockquote><span class="uvozovka">„ </span>Jak se máš?<span class="uvozovka"> “</span></blockquote></div>
 </section>
+	
 <footer>
-	<p></p>
-	<a href="https://www.facebook.com/Gener%C3%A1tor-n%C3%A1hodn%C3%BDch-konverza%C4%8Dn%C3%ADch-ot%C3%A1zek-1903958806535871/">Generátor na facebooku</a>
 </footer>
-
-
-<!-- 'Návštěvníky svého blogu máte povinnost upozornit na soubory cookie, které jsou na něm používány, a data, která jsou na něm shromažďována. Blogger má pro vás k dispozici standardní oznámení, které můžete na blogu využít a případně si ho přizpůsobit nebo nahradit vlastním oznámením. Další podrobnosti najdete na adrese http://www.blogger.com/go/cookiechoices.' -->
-<script src="/js/cookienotice.js" defer></script>
-<script>
-  document.addEventListener('DOMContentLoaded', function(event) {
-    window.cookieChoices && cookieChoices.showCookieConsentBar && cookieChoices.showCookieConsentBar(
-        (window.cookieOptions && cookieOptions.msg) || 'Tato stránka používá k poskytování služeb a analýze návštěvnosti soubory cookie od Googlu. Se společností Google se sdílí vaše IP adresa a user-agent a dále metriky výkonu a zabezpečení, které mají zajistit kvalitu služeb, slouží ke generování statistiky o využívání a k rozpoznání a řešení zneužití.',
-        (window.cookieOptions && cookieOptions.close) || 'Rozumím',
-        (window.cookieOptions && cookieOptions.learn) || 'Další informace',
-        (window.cookieOptions && cookieOptions.link) || 'https://www.blogger.com/go/blogspot-cookies');
-  });
-</script>
 
 </body>
 </html>
