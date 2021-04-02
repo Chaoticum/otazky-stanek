@@ -179,7 +179,6 @@ $('.qcounter').replaceWith('<p>Celkový počet otázek: '+pocet+'</p>');
        $("button").click(function() {
            	
  var nahodna = Math.floor((Math.random() * pocet) + 0);
- $('blockquote').replaceWith('<blockquote><span class="uvozovka">„ </span>'+otazky[nahodna]+'<span class="uvozovka"> “</span></blockquote>');
         });
 });
 </script>
@@ -219,8 +218,7 @@ $('.qcounter').replaceWith('<p>Celkový počet otázek: '+pocet+'</p>');
 <section>
 <h1>Generátor otázek</h1>
 <button class="btn btn-inverse">Vygenerovat otázku</button>
-<div><blockquote><span class="uvozovka">„ </span>Jak se máš?<span class="uvozovka"> “</span></blockquote></div>
-<div><p class="qcounter"></p></div>	
+<div><blockquote><span class="uvozovka">„ </span>Dokážeš udržet tajemství?<span class="uvozovka"> “</span></blockquote></div>	
 </section>
 	
 <div id="footer" class="footer" role="contentinfo">
