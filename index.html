@@ -186,7 +186,6 @@ $(document).ready(function() {
 var pocet = otazky.length;
 var nahodna = Math.floor((Math.random() * pocet) + 0);
 $('blockquote').replaceWith('<blockquote><span class="uvozovka">„ </span>'+otazky[nahodna]+'<span class="uvozovka"> “</span></blockquote>');
-$('.qcounter').replaceWith('<p>Celkový počet otázek: '+pocet+'</p>');
 $("button").click(function() {
            	
 var nahodna = Math.floor((Math.random() * pocet) + 0);
