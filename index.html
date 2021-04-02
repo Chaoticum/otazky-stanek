@@ -32,7 +32,7 @@
 <script>
 $(document).ready(function() {
 	var otazky = [
-		"Kdyby sis mohl/a přát cokoliv, co by to bylo? ",
+"Kdyby sis mohl/a přát cokoliv, co by to bylo? ",
 "Kolik chceš mít dětí? ",
 "Jakou písničku jsi naposledy poslouchal/a?",
 "Jaká je tvá nejhorší vlastnost?",
@@ -183,20 +183,19 @@ $(document).ready(function() {
 "Co je podle tebe nejlepší na vysokoškolském studiu?",
 "Jaký je tvůj oblíbený příběh?"
   			];
- var pocet = otazky.length;
-  var nahodna = Math.floor((Math.random() * pocet) + 0);
- $('blockquote').replaceWith('<blockquote><span class="uvozovka">„ </span>'+otazky[nahodna]+'<span class="uvozovka"> “</span></blockquote>');
-$('.qcounter').replaceWith('<p>Celkový počet otázek: '+pocet+'</p>');
-       $("button").click(function() {
+var pocet = otazky.length;
+var nahodna = Math.floor((Math.random() * pocet) + 0);
+$('blockquote').replaceWith('<blockquote><span class="uvozovka">„ </span>'+otazky[nahodna]+'<span class="uvozovka"> “</span></blockquote>');
+$("button").click(function() {
            	
- var nahodna = Math.floor((Math.random() * pocet) + 0);
+var nahodna = Math.floor((Math.random() * pocet) + 0);
         });
 });
 </script>
 
 </head>
 	
-<body style="height:100vh !important; width:100vw !important;">
+<body>
 
 <div id="page" class="page">	
 	
